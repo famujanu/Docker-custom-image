@@ -24,7 +24,7 @@ docker image build -t mycentos:v1 -f mycentosdockerfile .
 
 
 docker image build --nocache -t mycentos:v1 -f mycentosdockerfile .                    =================>using no cache
-====================================================================================
+=======================================================================
 vi mycentosdockerfile
 
 RUN cd /etc/yum.repos.d/
